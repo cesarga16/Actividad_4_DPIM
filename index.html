@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">César García</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Habilidades</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/ProfileSquared.png" alt="">
+            </div>
+            <h1>César García</h1>
+            <h2>Diseñador - Editor - Fotógrafo - Generalista 3D</h2>
+            <!-- <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div> -->
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <br><br><br>
+
+            <p>Soy un diseñador con un profundo interés en la
+                producción y postproducción, me considero
+                una persona creativa y siempre dispuesta a
+                aprender, sobre todo lo que me apasiona
+            <br><br><br>
+            </p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3 class="middle">Interéses</h3>
+                </div>
+                
+                <!-- intereses -->
+                <div class="col">
+                    
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Videojuegos</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>Música</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>3D Printing</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>Ejercicio</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Leer</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>Fotografía</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-youtube"></i>
+                            <span>Youtube</span>
+                        </div>
+                    
+                    </div>
+                </div>
+            
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    
+                    <div class="skill">
+                        <span>Diseño Gráfico</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Modelado Tridimensional</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Fotografía</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Motion Graphics</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Videografia</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    
+                    <div class="skill">
+                        <span>Texturizado</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Renderizado</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Edición de video</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Animación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>VFX</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            
+            <div class="fila">
+                <div class="col">
+                    <h3 class="middle">Programas</h3>
+                </div>
+                
+                <!-- intereses -->
+                <div class="col">
+                    
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <a href="profile"><img width="50px" src="https://logodownload.org/wp-content/uploads/2019/10/adobe-photoshop-logo-0.png" alt=""></a>
+                            <span>Photoshop</span>
+                        </div>
+                        <div class="interes">
+                            <a href="profile"><img width="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Blender_logo_no_text.svg/2503px-Blender_logo_no_text.svg.png" alt=""></a>
+                            <span>Blender</span>
+                        </div>
+                        <div class="interes">
+                            <a href="profile"><img width="50px" src="https://upload.wikimedia.org/wikipedia/commons/4/4d/DaVinci_Resolve_Studio.png" alt=""></a>
+                            <span style="display:block; text-align:center;">DaVinci Resolve</span>
+                        </div>
+                        <div class="interes">
+                            <a href="profile"><img width="40px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/2101px-Adobe_After_Effects_CC_icon.svg.png" alt=""></a>
+                            <span>After Effects</span>
+                        </div>
+                        <div class="interes">
+                            <a href="profile"><img width="40px" src="https://cdn.iconscout.com/icon/free/png-256/adobe-substance-2521753-2132645.png" alt=""></a>
+                            <span style="display:block; text-align:center;">Substance Painter</span>
+                        </div>
+                        <div class="interes">
+                            <a href="profile"><img width="50px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/CAPTURE_ONE_LOGO.svg/1200px-CAPTURE_ONE_LOGO.svg.png" alt=""></a>
+                            <span>Capture One</span>
+                        </div>
+                        <div class="interes">
+                            <a href="profile"><img width="50px" src="https://play-lh.googleusercontent.com/WVl18ugl3adNd8rjRQUJwnmt5VeiSf-7GSv7Fae8vbKywECFwsYXbD43buTZCmAR11ht" alt=""></a>
+                            <span>Fusion 360</span>
+                        </div>
+                        <div class="interes">
+                            <a href="profile"><img width="50px" src="https://cdn.freebiesupply.com/logos/large/2x/maya-2017-logo-png-transparent.png" alt=""></a>
+                            <span>Maya</span>
+                        </div>
+                    
+                    </div>
+                </div>
+            <!-- </div>
+            <button type="su">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div> -->
+    </section>
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Licenciatura en Diseño Gráfico y Animación</h4>
+                        <span class="casa">Universidad de Tecmilenio</span>
+                        <span class="fecha">2019 - 2023</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Curso de fotografía y composición</h4>
+                        <span class="casa">Pablo Foto G</span>
+                        <span class="fecha">2019</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Editor de Video y Motion Graphics</h4>
+                        <span class="casa">Crea+Lab</span>
+                        <span class="fecha">2020 - 2022</span>
+                        <p>Fui editor de video y animador de motion graphics para distintinos anuncios y comerciales informativos que se presentaron a nivel nacional.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Fotógrafo, Editor y Diseñador</h4>
+                        <span class="casa">T-Diseño Mágico</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <p>En este proyecto estuvimos involucrados con la Secretaria de Turismo de Querétaro, donde trabajabamos en plantillas para redes sociales, fotrografiamos los múltiples pueblos mágicos de Querétaro y grabamos dos videos promocionales.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Diseñador</h4>
+                        <span class="casa">MASQ</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>En este trabajo fui el responsable de crear diseños promocionales con la finalidad de vender seminários y viajes en la república.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Editor, Camarógrafo, Productor, Diseñador y Animador</h4>
+                        <span class="casa">Sobre Orugas</span>
+                        <span class="fecha">2022 - 2022</span>
+                        <p>En esta empresa estuve a cargo de todos los proyectos audiovisuales, me encargué de hacer producciones en vivo, organizar actividades con la finalidad de grabarlas y editarlas para subirlas a redes sociales. También trabaje en animaciones en 3D y 2D para promocionar los productos de la empresa. </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/750cbf142958463.62715aee4bdd2.png" alt="">
+                    <div class="overlay">
+                        <h3>Sobre Orugas</h3>
+                        <p>Renders, edición, producción</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4a6dee139340835.622e2edd8b70e.png" alt="">
+                    <div class="overlay">
+                        <h3>Vultik</h3>
+                        <p>Render 3D y animación</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/069e45139084055.6229567d28f15.png" alt="">
+                    <div class="overlay">
+                        <h3>Motivo</h3>
+                        <p>Fotografía de producto</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/a93ea5119652471.60a3128547d02.png" alt="" height="340">
+                    <div class="overlay">
+                        <h3>Modelado Tridimensional</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/47c0c1119653855.60a28066e2024.png" alt="">
+                    <div class="overlay">
+                        <h3>Lissë</h3>
+                        <p>Fotografía de producto</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0154cf135710271.61ec8de559f83.png" alt="">
+                    <div class="overlay">
+                        <h3>MASQ</h3>
+                        <p>Diseño Gráfico</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            
+                <!-- Formulario -->
+                <div class="contact_new">
+                    <a class="fa-brands fa-square-behance paddingElements" href="https://www.behance.net/cesaraperez" style="font-size:50px;"style="text-decoration:none;"></a>
+                    <a class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/cesar-garcia16/" style="font-size:50px;"></a>
+                    <a class="fa-brands fa-instagram" href="https://www.instagram.com/justhings/" style="font-size:50px;"></a>
+                    <a class="fa-brands fa-whatsapp" href="https://wa.me/qr/66GJ73AIQXW7N1" style="font-size:50px;"></a>
+                </div>
+                <!-- Mapa -->
+              
+            
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        
+        <div class="redes">
+           
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
